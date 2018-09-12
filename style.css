@@ -1,0 +1,14 @@
+body {
+    background-image: url(moon.jpg);
+    background-size: cover;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    line-height: 1000px;
+    font-weight: 300;
+    font-size: 40px;
+    /* border-color: gainsboro;
+    border-style: dotted; */
+}
