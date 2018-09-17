@@ -1,10 +1,17 @@
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(44, 44, 44);
-    text-align: center;
+     text-align: center; 
     line-height: 1000px;
     font-weight: 300;
     font-size: 40px;
     /* border-color: gainsboro;
     border-style: dotted; */
+}
+
+.LI-profile-badge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -150px;
 }
