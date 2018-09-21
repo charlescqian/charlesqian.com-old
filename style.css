@@ -1,17 +1,89 @@
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(44, 44, 44);
-     text-align: center; 
-    line-height: 1000px;
-    font-weight: 300;
-    font-size: 40px;
-    /* border-color: gainsboro;
-    border-style: dotted; */
+
+body, html {
+    width: 100%;
+    height: 100%;
 }
 
-.LI-profile-badge {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -150px;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+    max-width: 75px;
+    border-width: 3px;
+    border-color: rgb(44,44,44);
+}
+
+.grey{
+    color: rgba(44, 44, 44, 0.8);
+}
+
+header.startup {
+    background-position: center;
+     background-image: url("res/moon-min-cropped.jpg"); 
+    background-size: cover;
+    height: 100%;
+}
+
+header.startup hr {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+header.startup h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    margin: 10px;
+}
+  
+.btn-xl {
+    padding: 1rem 2rem; 
+}
+  
+.btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44; 
+}
+  
+.btn-primary:hover {
+    background-color: #de3718;
+    border-color: #de3718;
+    cursor: pointer;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem #de3718;
+}
+  
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #ff816a;
+    border-color: #ff816a;
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ab240b;
+    border-color: #ab240b;
+}
+  
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #ab240b;
+}
+
+footer.page-footer .footer-copyright {
+    background-color: rgba(22, 22, 22, 0.95);
+    color: rgba(255,255,255,0.6);
+}
+
+footer.page-footer .footer-copyright a {
+    color: rgba(255,255,255,0.6);
+}
+
